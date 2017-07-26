@@ -1,0 +1,4 @@
+app/etc/modules/RedboxDigital_Linkedin.xml              app/etc/modules/RedboxDigital_Linkedin.xml
+app/code/local/RedboxDigital/Linkedin                   app/code/local/RedboxDigital/Linkedin
+app/design/frontend/rwd/default/template/redbox_linkedin/     app/design/frontend/rwd/default/template/redbox_linkedin/
+app/design/frontend/rwd/default/layout/redbox_linkedin.xml                  app/design/frontend/rwd/default/layout/redbox_linkedin.xml
