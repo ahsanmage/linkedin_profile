@@ -1,6 +1,6 @@
 {
-    "name": "redboxdi/mage-resque",
-    "homepage": "https://github.com/ajbonner/mage-resque",
+    "name": "linkedin_profile",
+    "homepage": "https://github.com/ahsanmage/linkedin_profile.git",
     "description": "Magento for custom customer attribute",
     "keywords": ["magento", "customer", "customer attribute"],
     "type": "magento-module",
