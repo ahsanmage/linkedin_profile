@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>RedboxDigital_Linkedin</name>
+    <version>0.1.0</version>
+    <stability>devel</stability>
+    <license>OSL v3.0</license>
+    <channel>local</channel>
+    <extends/>
+    <summary>Magento for custom customer attribute</summary>
+    <description>Magento for custom customer attribute</description>
+    <notes>Magento for custom customer attribute</notes>
+    <authors><author><name>Ahsan</name><user>ahsanmage</user><email>mr.developer09@gmail.com</email></author></authors>
+    <date>2017-07-26</date>
+    <time>10:45:28</time>
+    <contents><target name="magelocal"><dir name="."><dir name="app"><dir name="code"><dir name="local"><file name="RedboxDigital_Linkedin" hash=""/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
+</package>
