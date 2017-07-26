@@ -1,0 +1,27 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <customer_account_create>
+        <reference name="customer_form_register">
+            <action method="setTemplate"><template>redbox_linkedin/customer/form/register.phtml</template></action>
+            <block type="persistent/form_remember" name="persistent.remember.me" template="persistent/remember_me.phtml" />
+            <block type="core/template" name="persistent.remember.me.tooltip" template="persistent/remember_me_tooltip.phtml" />
+        </reference>
+    </customer_account_create>
+
+    <customer_account_edit translate="label">
+        <label>Customer Account Edit Form</label>
+        <update handle="customer_account"/>
+        <reference name="root">
+            <action method="setHeaderTitle" translate="title" module="customer"><title>Edit Account Info</title></action>
+        </reference>
+        <reference name="my.account.wrapper">
+            <block type="customer/form_edit" name="customer_edit" template="redbox_linkedin/customer/form/edit.phtml"/>
+        </reference>
+
+        <reference name="left">
+          <action method="unsetChild"><name>left.permanent.callout</name></action>
+        </reference>
+    </customer_account_edit>
+
+</layout>   
+	

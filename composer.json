@@ -1,0 +1,23 @@
+{
+    "name": "redboxdi/mage-resque",
+    "homepage": "https://github.com/ajbonner/mage-resque",
+    "description": "Magento for custom customer attribute",
+    "keywords": ["magento", "customer", "customer attribute"],
+    "type": "magento-module",
+    "license": "MIT",
+    "authors": [
+    {
+        "name":"Ahsan",
+        "email":"mr.developer09@gmail.com"
+    }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "~3.0.0"
+    },
+    "repositories": [
+    {
+        "type": "composer",
+        "url": "https://packages.firegento.com"
+    }
+    ]
+}
